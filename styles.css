@@ -1,0 +1,143 @@
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+div, td {
+    color: #1b1818;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+a {
+    text-decoration: none !important;
+    color: #1b1818;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+img {
+    border: none;
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    padding: 10px 0;   
+    margin: 0;
+}
+b {
+    font-style: italic;
+    font-weight: bold;
+}
+h1 {
+    font-weight: normal;
+    margin: 0;
+    padding: 0 15px;
+}
+
+/*** header **/
+
+header {
+    padding: 25px 0;
+    background: #090f20;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/** Main **/
+
+main {
+    background: #fefefe;
+}
+
+.photos {
+    padding: 15px;
+    border: 2px solid #3397db;
+    border-radius: 10px;
+}
+
+.nom {
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.filiere {
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.tel {
+    padding-top: 30px;
+}
+
+.tel::before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: #3397db;
+    margin-bottom: 30px;
+}
+.top .container{
+    background: rgb(138, 172, 216);
+}
+.container{
+    width:100% !important;
+}
+.row{
+    padding-bottom: 15px;
+}
+.separateur::before{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+    background: #3397db;
+    margin-bottom: 30px;
+}
+.declaration{
+    text-align: center;
+    background-color: #5686a7;
+}
+.profil{
+    text-align: center;
+    background-color: #5686a7;
+}
+.experiences{
+    text-align: center;
+    background-color: #5686a7;
+}
+.formation{
+    text-align: center;
+    background-color: #5686a7;
+}
+.cursus{
+    text-align: center;
+    background-color: #5686a7;
+}
+.intere{
+    text-align: center;
+    background-color: #5686a7;
+}
+.langages{
+    text-align: center;
+    background-color: #5686a7;
+}
